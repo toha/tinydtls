@@ -86,7 +86,7 @@ typedef struct {
 
 /* This is the maximal supported length of the psk client identity and psk
  * server identity hint */
-#define DTLS_PSK_MAX_CLIENT_IDENTITY_LEN   32
+#define DTLS_PSK_MAX_CLIENT_IDENTITY_LEN   128
 
 typedef struct {
   uint16_t id_length;
