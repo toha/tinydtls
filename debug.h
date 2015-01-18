@@ -83,13 +83,13 @@ void dtls_dsrv_log_addr(log_t level, const char *name, const session_t *addr);
 
 #else /* NDEBUG */
 
-static inline log_t dtls_get_log_level()
+/*static inline log_t dtls_get_log_level()
 {
   return DTLS_LOG_EMERG;
 }
 
 static inline void dtls_set_log_level(log_t level)
-{}
+{}*/
 
 static inline void dsrv_log(log_t level, char *format, ...)
 {}
